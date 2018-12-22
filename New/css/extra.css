@@ -1,0 +1,22 @@
+.sidebar{
+    background-color: black;
+    width: 4%;
+    height: 100%;
+    margin: 0px 0px 0px -8px;
+    padding: 0px 0px 0px 0px;
+    position: fixed;
+}   
+
+.arrow{
+    top: 45%;
+    position: relative;
+    height: 70%;
+    width: 70%;
+    margin: 5px;
+}
+
+#bars{
+    margin-top: 100px;
+    color: white;
+}
+

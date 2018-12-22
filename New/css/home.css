@@ -1,0 +1,44 @@
+
+a:hover{
+	color: black;
+}
+
+a{
+	/* padding-right: 45px; */
+	text-align: inline;
+	text-decoration: none;
+}
+#home{
+	background-image: url("../images/notebook.jpg");
+	max-width:100%;
+	/* height:auto; */
+	/* width: auto; */
+	/* background-size: 100% 100%; */
+	background-size: cover;
+	height: 102.5%;
+	width: 100%;
+	/* background-size: 1000px 600px; */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* margin-right: -500px; */
+	/* margin: -46px 0px 0px 0px; */
+	/* width: 1000px; */
+	margin: -8px 0px 0px 0px;
+	color: white;
+	/* margin-right: 400px; */
+	/* padding-top: 35px; */
+	/* padding-bottom: 200px; */
+}
+.A{
+	padding-top: 20%;
+}
+
+.name{
+	font-size: 70px;
+}
+.info{
+	font-size: 20px;
+}
+hr{
+   border: 2px solid rgb(0, 0, 0);
+}
