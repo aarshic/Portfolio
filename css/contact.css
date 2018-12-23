@@ -7,6 +7,33 @@
 	width: auto;
     width: 100%;
     height: 65%;
+    padding-left: 4%;
+    font-family: 'Courier New';
+}
+
+.cnt{
+    margin: 5% 5% 5% 5%;
+    font-size: 2vw;
+    color: #18181a;
+}
+
+.ct{
+    color: #18181a;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.cnt:hover{
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .fa {
@@ -15,30 +42,16 @@
     color: rgb(182, 179, 179);
 }
 
-.fa-facebook{
-    padding: 5%;
-    font-size: 2vw;
-    width: 15%;
+.fa-map-marker, .fa-phone, .fa-envelope{
+    text-align: center;
+    text-decoration: none;
+    color: #18181a;
 }
 
-.fa-linkedin{
+.fa-facebook, .fa-linkedin, .fa-instagram, .fa-github{
     padding: 5%;
-    font-size: 2vw;
     width: 15%;
 }
-
-.fa-instagram{
-    padding: 5%;
-    font-size: 2vw;
-    width: 15%;
-}
-
-.fa-github{
-    padding: 5%;
-    font-size: 2vw;
-    width: 15%;
-}
-
 
 .fa:hover {
     opacity: 0.3;
@@ -52,6 +65,7 @@
 .footer-copyright{
     background-color: #18181a;
     color: rgb(182, 179, 179);
+    font-size: 1.3vw;
 }
 
 .mw{
