@@ -14,6 +14,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- <link rel="stylesheet" href="css/bootstrap.    css"> -->
         <!-- <link rel="stylesheet" href="css/bootstrap-responsive.css"> -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        Latest compiled JavaScript
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     </head>
     <body>
         <div id="mySidenav" class="sidenav">
@@ -45,7 +53,6 @@
                 <center class="A">
                     <div class="name">Aarshi Chourasia</div><hr width="8%" />
                     <div class="info"> Engineering Undergraduate | Web Development Enthusiast | Startup Enthusiast </div>
-                    <span class="typer">|</span>
                 </center>
             </div>
 
@@ -63,42 +70,58 @@
                         </div>
                         <div class="image-cropper" >
                                 <img src="images/Aarshi.jpeg" alt="Photo" style="float: right;">
-                            </div>
+                        </div>
                     </div>
             </div>
 
 
 
             <div id="experience">
-
+                <div>
+                    <center>
+                    <h1 class="exp">Experience</h1>
+                    <hr width="85%" />
+                    </center>
+                </div>
 
                     <div class="container">
                         <div class="row">
-                            <div class="col">
-                                <center>                       
-                                    <h2>Software Development Internship</h2>
-                                    <h3><i>Nightingales - The Home Health Specialist</i></h3>
-                                </center>
-                            </div>
-                            <div class="col">
-                                <center>
+                            <span class="col">
+                                <img src="images/nightingales.png" style="border-radius:50%;width:15%;">
+                                <hr width="1" size="500">
+                            </span>  
+                            
+                            <span class="col-6">             
+                                <h2>Software Development Internship</h2>
+                                <h3><i>Nightingales - The Home Health Specialist</i></h3>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col im">
+                                <img src="images/litg.png" style="border-radius:50%;width:15%;">
+                            </span>
+                            <span class="col">
                                     <h2>Mentor</h2>
                                     <h3><i>LEARN IT, GIRL</i></h3>
-                                </center>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="col">
-                                <center>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col im">
+                                <img src="images/hackr.jpg" style="border-radius:50%;width:15%;">
+                            </span>
+                            <span class="col">
                                     <h2>Programming cum Marketing Internship</h2>
                                     <h3><i>Hackr.io</i></h3>
-                                </center>
-                            </div>
-                            <div class="col">
-                                <center>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <span class="col im">
+                                <img src="images/ludifu.jpeg" style="border-radius:50%;width:15%;">
+                            </span>
+                            <span class="col">
                                     <h2>Marketing and Business Development Internship</h2>
                                     <h3><i>LUDIFU</i></h3>
-                                </center>
-                            </div>
+                            </span>
                         </div>
                     </div>
 
@@ -171,23 +194,79 @@
 
             </div>
             <div id="projects">
-                Projects
-                <h2>Software Development Internship</h2>
-                <h3><i>Nightingales - The Home Health Specialist</i></h3>
-                <p>Worked across a wide range of software development activities, frontend & backend development and automated testing. I was mainly responsible to write efficient code for new features and fixing bugs in the existing code.</p>
-                
-                <h2>Mentor</h2>
-                <h3><i>LEARN IT, GIRL</i></h3>
-                <p>Selected for an international mentor-mentee program started by Anita Borg recipients, where I taught the HTML, CSS and basic Javascript from beginning to a girl from Poland. I was selected amongst 126 mentors amid applicants from all over the world.</p>
-    
-                <h2>Programming cum Marketing Internship</h2>
-                <h3><i>Hackr.io</i></h3>
-                <p>Worked on front-end technologies to build web-based applications. Also worked as a content researcher, where I was responsible for online/web research work and also for answering questions on different question & answer sites to increase their reach.</p>
-    
-                <h2>Marketing and Business Development Internship</h2>
-                <h3><i>LUDIFU</i></h3>
-                <p>Build and worked on different strategies to increase their sale and to promote their product on different platforms.</p>
-            
+                <center>
+                <h1 style="padding-top:3%;font-size:300%;">Projects</h1>
+                <h2>You can visit my small projects which I have Done</h2>
+                </center>
+                <div class="pu">
+                    <!-- <div class="box"> -->
+                        <a class="button" href="#popup1">Medic</a>
+                    <!-- </div> -->
+
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Medic</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>For a given medical symptom, it lists down the possible medical conditions/diagnosis and for any given diagnosis it suggests various treatments.</p>
+                                <p>Technology: Node.js, MongoDB.</p>
+                                <p>https://github.com/aarshic/Medic</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="box"> -->
+                        <a class="button" href="#popup2">Hospital Management </a>
+                    <!-- </div> -->
+
+                    <div id="popup2" class="overlay">
+                        <div class="popup">
+                            <h2>Hospital Management</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>A hospital management system where one can add, delete, modify, search any patient’s data. The data was password protected to assure the security of data.</p>
+                                <p>Technology: C++.</p>
+                                <p>https://github.com/aarshic/Hospital-Management-System</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                    <!-- <div class="box"> -->
+                        <a class="button" href="#popup3">Brick-Ball Game</a>
+                    <!-- </div> -->
+                    
+                    
+                    <div id="popup3" class="overlay">
+                        <div class="popup">
+                            <h2>Brick-Ball Game</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>It's a game in which one needs to destroy all the bricks. Avoid the ball from falling to the bottom of the screen. Use the paddle in order to keep the ball in the game & hit the bricks.</p>
+                                <p>Technology: C++.</p>
+                                <p>https://github.com/aarshic/Brick-Game</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="box"> -->
+                        <a class="button" href="#popup4">Info Website</a>
+                    <!-- </div> -->
+
+                    <div id="popup4" class="overlay">
+                        <div class="popup">
+                            <h2>Info Website</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                <p>A simple website containing different parts of the portfolio which can easily be navigated from the home page.</p>
+                                <p>Technology: HTML, CSS.</p>
+                                <p>https://github.com/aarshic/Website</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
             </div>
             <div id="contact">
                 Contact
