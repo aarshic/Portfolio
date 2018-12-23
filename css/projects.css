@@ -33,7 +33,7 @@
     /* border: 2px solid #fff; */
     background-clip: padding-box;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: white;
     border: 2px solid black;
     border-radius: 85px/1px;
@@ -66,11 +66,11 @@
 }
   
 .popup {
-    margin: 70px auto;
-    padding: 20px;
+    margin: 12% auto;
+    padding: 2%;
     background: #fff;
-    border-radius: 5px;
-    width: 30%;
+    border-radius: 5%;
+    width: 40%;
     position: relative;
     transition: all 5s ease-in-out;
     color: black;
@@ -80,14 +80,15 @@
     margin-top: 0;
     color: #333;
     font-family: 'Courier New';
+    font-size: 3.5vw;
 }
 
 .popup .close {
     position: absolute;
     top: 10%;
-    right: 30px;
+    right: 8%;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 250%;
     font-weight: bold;
     text-decoration: none;
     color: #333;
@@ -100,6 +101,7 @@
 .popup .content {
     max-height: 30%;
     overflow: auto; 
+    font-size: 1.5vw;
 }
   
 @media screen and (max-width: 700px){
