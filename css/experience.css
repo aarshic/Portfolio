@@ -1,9 +1,58 @@
 #experience{
     background-color: #dddddd;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:auto;
+	width: auto;
     padding-left: 4%;
+    padding-top: 2%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New';
+    font-size: 100%;
+}
+
+.container{
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-column: span 2; */
+    /* grid-row: span 7; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: auto auto auto; */
+    /* height: 100vh; */
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.col-sm-2{
+    flex: 15%;
+    max-width: 15%;
+}
+
+.col-sm-10{
+    flex: 85%;
+    max-width: 85%;
 }
 
 .im{
     border-right: 2px solid black;
-    
+}
+
+.hh1{
+    font-size: 1.8vw;
+}
+
+.hh2{
+    font-size: 1.2vw;
+}
+
+.hh3{
+    font-size: 1vw;
 }

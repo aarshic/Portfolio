@@ -1,5 +1,10 @@
 #contact{
     background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:auto;
+	width: auto;
     width: 89%;
     height: 101%;
 }

@@ -3,11 +3,11 @@ var menuState = 0 // close
 function open_close() {
   if(menuState === 0){
      menuState = 1;
-     document.getElementById("mySidenav").style.width = "200px";
+     document.getElementById("mySidenav").style.width = "20%";
   }
   else {
      menuState = 0;
-     document.getElementById("mySidenav").style.width = "0";
+     document.getElementById("mySidenav").style.width = "0%";
   }
   console.log(menuState);
 } 

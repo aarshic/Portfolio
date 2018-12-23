@@ -9,7 +9,7 @@
 .image-cropper img{
 	margin: 0 auto;
 	height: auto;
-	width: 70%;
+	width: 60%;
 	margin: 0 0 0 20%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -19,12 +19,17 @@
 }
 
 #about{	
+	background-color: white;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:auto;
+	width: auto;
+	font-family: 'Courier New';
     /* padding-left: 6%; */
     margin-left: 4%;
-    background-size: cover;
-    width: 96%;
-    height: 103%;    
-    font-size: 100% ;
+    width: 94%;
+    height: 100%;    
     text-align: center;
 	/* padding-top: 50px;
 	padding-bottom: 150px; */
@@ -35,23 +40,30 @@
 	display: inline-block;
 }
 
+.aboutheading{
+	font-family: 'Courier New';
+	font-size: 2.5vw;
+}
+
 #aboutme{
     display: inline-flex;
-    margin-left: 5%;
+	margin-left: 5%;
+	font-size: 1vw;	
 }
 
 #aboutme2{
-    padding-top: 25px;
+    padding-top: 2.5%;
 	float: left;
+	font-size: 1vw;
 }
 
 /* @media screen and (max-device-width: 95%) {
-    #aboutme2 { font-size: 1.2em; */
-/* } */
+    #aboutme2 { font-size: 1.2em;
+} */
 
 .aboutheading{
     margin-top: 8%;
     padding-top: 2%;
     /* text-align: left; */
-    /* float    :left; */
+    /* float: left; */
 }
